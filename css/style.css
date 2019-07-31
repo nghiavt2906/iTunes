@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+body{
+    font-family: 'Abel', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow: hidden;
+    text-align: center;
+}
+
+.pageView{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+.headerPage{
+    grid-column: span 12;
+}
+
+.mainSec{
+    grid-column: span 12;
+    
+}
+
+.footerPage{
+    grid-column: span 12;
+}
+
+#navBox{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.navItem{
+    list-style: none;
+    margin: 0 38px;
+    font-size: 15px;
+}
+
+.header-nav{
+    background-color: rgba(45,45,45,0.98);
+}
+
+.navItem a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navItem a:hover{
+    color: #b6b6b6;
+}
+
+.showCase{
+    width: 100%;
+    height: 60vh;
+}
+
+.backgroundSC{
+    background-image: url('../assets/showCase.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.textSC{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    line-height: 0.1;
+}
+
+.textSC .headerText{
+    font-size: 90px;
+}
+
+.textSC .subText{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.light-grey-back{
+    background-color: #fafafa;
+}
+
+.grey-back{
+    background-color: #f2f2f2;
+}
+
+.white-back{
+    background-color: #fff;
+}
+
+.sub-header{
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.black-sub-header{
+    color: #333;
+}
+
+.grey-sub-header{
+    display: block;
+    color: #888;
+}
+
+.white-sub-header{
+    color: #fff;
+}
+
+.detail-header{
+    font-size: 18px;
+    font-weight: 1;
+    padding: 0 120px;
+}
+
+.section-content{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.detail-second-section .row-detail{
+    display: block;
+}
+
+.tryBtn{
+    margin: 0 auto;
+    background-color: #fd365e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.tryBtn:hover{
+    background-color: #f1244d;
+}
+
+.row-center figure a{
+    color: #0070c9;
+    font-size: 18px;
+    margin: 50px auto 10px;
+}
+
+.custom-anchor{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.lightCap{
+    color: #999;
+    font-size: 1em;
+}
+
+.figure{
+    margin-bottom: 100px;
+}
+
+.hover-anchor:hover{
+    text-decoration: underline;
+}
+
+.third-section, .fifth-section{
+    margin-bottom: 50px;
+}
+
+.fourth-section{
+    background-image: url("https://www.apple.com/v/itunes/home/j/images/overview/universe_entertainment_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 50px;
+}
+
+.blue-anchor{
+    color: #0070c9;
+}
+
+.dark-anchor{
+    color: #333;
+}
+
+.row-phones{
+    margin-top: 50px;
+}
+
+.row{
+    float: left;
+    width: 33.3%;
+    margin: 0;
+}
+
+.footer-content{
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.footer-top, .footer-bottom{
+    color: #888;
+}
+
+.footer-nav{
+    display: flex;
+}
+
+.footer-nav-box{
+    flex-basis: 25%;
+}
+
+.list-nav-box{
+    padding: 0;
+    margin: 0;
+}
+
+.item-nav-box{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.footer-shop{
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.footer-copyright{
+    float: left;
+}
+
+.footer-locate{
+    float: right;
+}
+
+.footer-legal-links{
+    float: left;
+}
+
+.footer-legal{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom{
+    margin-bottom: 30px;
+}
+
+.footer-legal-link{
+    border-right: 1px solid #d6d6d6;
+    padding: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-legal-link:last-child{
+    border: none;
+}
+
+.icon-location{
+    background-image: url("https://www.apple.com/ac/flags/1/images/vn/16.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    padding-right: 5px;
+}
+
+.header-nav-box{
+    margin: 17px 0 8px 0;
+}
+
+.footer-anchor, .header-nav-box{
+    font-size: 1em;
+}
